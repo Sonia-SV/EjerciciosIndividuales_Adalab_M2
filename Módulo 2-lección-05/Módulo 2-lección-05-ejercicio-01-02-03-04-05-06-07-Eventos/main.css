@@ -1,0 +1,21 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.scroll {
+  background-color: rgb(48, 152, 201);
+}
+
+.color1 {
+  background-color: rgb(173, 100, 241);
+}
+
+.color2 {
+  background-color: coral;
+}
