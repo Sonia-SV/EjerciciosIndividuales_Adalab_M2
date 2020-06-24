@@ -1,0 +1,26 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.purple {
+  background-color: rgb(145, 63, 221);
+}
+
+.red {
+  background-color: rgb(201, 42, 103);
+}
+
+.buttonBasic {
+  width: 150px;
+  height: 80px;
+  border: 2px solid red;
+  background-color: lightslategrey;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button-js {
+  background-color: lightseagreen;
+  border: 2px solid blue;
+}
