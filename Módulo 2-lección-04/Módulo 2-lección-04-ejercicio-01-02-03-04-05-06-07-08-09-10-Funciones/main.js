@@ -51,18 +51,19 @@ console.log("Is this number even? " + parimpar);
 
 //EJERCICIO 5
 
-function getEl(className) {
+function getEl1(className) {
+  console.log(`El nombre de esta clase es ${className}`);
   return document.querySelector(className);
 }
-const btnEl = getEl(".btn");
+const btnEl = getEl1(".btn");
 btnEl.innerHTML = "botón h3";
 btnEl.classList.add("button");
 
-const btnEl1 = getEl(".btn1");
+const btnEl1 = getEl1(".btn1");
 btnEl1.innerHTML = "botón div";
 btnEl1.classList.add("button");
 
-const btnEl2 = getEl(".btn2");
+const btnEl2 = getEl1(".btn2");
 btnEl2.innerHTML = "botón p";
 btnEl2.classList.add("button");
 
@@ -126,10 +127,10 @@ function boxCalculator(borderBox, width, padding, borderSize) {
   } else {
     return console.log(
       `El ancho del contenido es: ${width}px y el ancho total de la caja es: ${
-        width + padding + borderSize
+        width + padding * 2 + borderSize * 2
       }px`
     );
   }
 }
 
-let boxSize = boxCalculator(false, 300, 120, 5);
+let boxSize = boxCalculator(false, 100, 10, 5);
