@@ -39,7 +39,8 @@ label {
   margin-top: 10px;
 }
 
-.error-wrapper {
+.error-wrapper,
+.countdown {
   color: red;
 }
 
