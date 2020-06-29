@@ -1,11 +1,11 @@
 'use strict';
 
-function ten(word, num) {
+function writeThis(word, num) {
   for (let i = 0; i < num; i++) {
     console.log(word);
   }
 }
 
-ten('patata', 10);
-ten('aguacate', 7);
-ten('pizza', 50);
+writeThis('patata', 10);
+writeThis('aguacate', 7);
+writeThis('pizza', 50);
