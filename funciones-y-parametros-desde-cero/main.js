@@ -1,11 +1,15 @@
 'use strict';
+function getRandomNumber(max) {
+  return Math.ceil(Math.random() * max);
+}
+let random = getRandomNumber(10);
 
-function ten(word, num) {
-  for (let i = 0; i < num; i++) {
+function writeThis(word, random) {
+  for (let i = 0; i < random; i++) {
     console.log(word);
   }
 }
 
-ten('patata', 10);
-ten('aguacate', 7);
-ten('pizza', 50);
+writeThis('patata', random);
+writeThis('aguacate', random);
+writeThis('pizza', random);
