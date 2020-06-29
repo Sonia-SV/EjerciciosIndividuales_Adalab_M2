@@ -2,14 +2,14 @@
 function getRandomNumber(max) {
   return Math.ceil(Math.random() * max);
 }
-let random = getRandomNumber(10);
+let randomNum = getRandomNumber(10);
 
-function writeThis(word, random) {
-  for (let i = 0; i < random; i++) {
+function writeThis(word, randomNum) {
+  for (let i = 0; i < randomNum; i++) {
     console.log(word);
   }
 }
 
-writeThis('patata', random);
-writeThis('aguacate', random);
-writeThis('pizza', random);
+writeThis('patata', randomNum);
+writeThis('aguacate', randomNum);
+writeThis('pizza', randomNum);
