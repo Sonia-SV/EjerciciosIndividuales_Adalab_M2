@@ -5,5 +5,3 @@ function ten() {
     console.log('patata');
   }
 }
-
-const result = ten();
