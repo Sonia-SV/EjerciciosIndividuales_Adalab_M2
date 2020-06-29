@@ -5,3 +5,4 @@ function ten() {
     console.log('patata');
   }
 }
+ten();
