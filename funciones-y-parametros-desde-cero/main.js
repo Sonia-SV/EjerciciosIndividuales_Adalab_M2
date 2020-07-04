@@ -1,13 +1,18 @@
 'use strict';
+function getRandomNumber(max) {
+  return Math.ceil(Math.random() * max);
+}
+let randomNum = getRandomNumber(10);
 
-function writeThis(word, num) {
-  for (let i = 0; i < num; i++) {
+
+function writeThis(word, randomNum) {
+  for (let i = 0; i < randomNum; i++) {
     console.log(word);
   }
 }
 
 
-writeThis('patata', 10);
-writeThis('aguacate', 7);
-writeThis('pizza', 50);
+writeThis('patata', randomNum);
+writeThis('aguacate', randomNum);
+writeThis('pizza', randomNum);
 
