@@ -1,0 +1,20 @@
+body {
+  background-color: lemonchiffon;
+}
+.btn {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 5px;
+  margin: 30px;
+  background-color: lightcoral;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: ease 1s;
+}
+
+.btn:hover {
+  background-color: darkred;
+}
