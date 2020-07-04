@@ -6,6 +6,7 @@ function ten(word) {
   }
 }
 
+
 ten('patata');
 ten('aguacate');
 ten('pizza');
