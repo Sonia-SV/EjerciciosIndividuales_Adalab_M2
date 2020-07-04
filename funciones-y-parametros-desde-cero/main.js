@@ -1,7 +1,11 @@
 'use strict';
+function getRandomNumber(max) {
+  return Math.ceil(Math.random() * max);
+}
+let randomNum = getRandomNumber(10);
 
-function writeThis(word, num) {
-  for (let i = 0; i < num; i++) {
+function writeThis(word, randomNum) {
+  for (let i = 0; i < randomNum; i++) {
     console.log(word);
   }
 }
@@ -39,3 +43,7 @@ for (const values of myWordList) {
 // writeThis('patata', random);
 // writeThis('aguacate', random);
 // writeThis('pizza', random);
+
+writeThis('patata', randomNum);
+writeThis('aguacate', randomNum);
+writeThis('pizza', randomNum);
